@@ -1,0 +1,17 @@
+project:
+  key: DRAGON
+  plan:
+    key: SLAYER
+    name: Dragon Slayer Quest
+stages:
+  - jobs:
+      - scripts:
+          - echo 'Going to slay the red dragon, watch me'
+        artifacts:
+          - name: Blue dragon's head
+            path: dragon/blue/head
+          - name: Blue dragon's claw
+            path: dragon/blue/claw
+  - jobs:
+      - scripts:
+          - echo 'I am here to claim my reward'
